@@ -1,0 +1,15 @@
+{
+  "name": "fylo-landing-page",
+  "version": "1.0.0",
+  "description": "This project contains the News Homepage project.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i src/styles/input.css -o src/styles/input.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.13"
+  }
+}
