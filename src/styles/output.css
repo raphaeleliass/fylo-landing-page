@@ -558,12 +558,16 @@ video {
   position: absolute;
 }
 
+.left-0 {
+  left: 0px;
+}
+
 .left-8 {
   left: 2rem;
 }
 
-.m-4 {
-  margin: 1rem;
+.right-0 {
+  right: 0px;
 }
 
 .m-auto {
@@ -607,6 +611,10 @@ video {
 
 .w-8 {
   width: 2rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-xl {
@@ -738,10 +746,6 @@ video {
   background-position: bottom;
 }
 
-.bg-center {
-  background-position: center;
-}
-
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -860,7 +864,6 @@ body {
 }
 
 .button-cyan {
-  margin: auto;
   border-radius: 9999px;
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
   --tw-gradient-from: hsl(176, 68%, 64%) var(--tw-gradient-from-position);
@@ -961,8 +964,8 @@ body {
     left: 6rem;
   }
 
-  .md\:m-0 {
-    margin: 0px;
+  .md\:m-auto {
+    margin: auto;
   }
 
   .md\:mx-52 {
@@ -1072,14 +1075,6 @@ body {
 
   .md\:bg-desktopCurvy {
     background-image: url('/src/images/bg-curvy-desktop.svg');
-  }
-
-  .md\:bg-cover {
-    background-size: cover;
-  }
-
-  .md\:bg-bottom {
-    background-position: bottom;
   }
 
   .md\:p-0 {
